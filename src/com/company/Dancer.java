@@ -18,7 +18,7 @@ public class Dancer  extends Person {
     }
 
     public void dancing() {
-        System.out.println(getName() + " is dancing a \"Moon walk\"");
+        System.out.println(getName() + " is dancing a \"Moon walk\""); //don't use getter here!
     }
 
     @Override
